@@ -1,0 +1,31 @@
+{
+  "name": "fang20d-webserver",
+  "version": "1.0.0",
+  "description": "simple webserver for a01",
+  "main": "node server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-fang20dan.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "author": "@fang20dan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-fang20dan/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-fang20dan#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
